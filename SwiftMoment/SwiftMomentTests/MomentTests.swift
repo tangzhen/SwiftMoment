@@ -386,5 +386,15 @@ class MomentTests: XCTestCase {
         XCTAssertEqual(moment(1432863617.0).epoch(), 1432863617.0, "The non zero epoch should match")
         XCTAssertEqual(jst.epoch(), gmt.epoch(), "The JST epoch should match GMT epoch")
     }
+    
+    func testMomentConstruct() {
+        let oneday = moment("2015-10-20T09:55:00.000-05:00")!
+        XCTAssertEqual(oneday.year, 2015, "The year should match")
+        XCTAssertEqual(oneday.month, 10, "The month should match")
+        XCTAssertEqual(oneday.day, 20, "The day should match")
+        XCTAssertEqual(oneday.hour, 09, "The hour should match")
+        XCTAssertEqual(oneday.minute, 55, "The minute should match")
+        XCTAssertEqual(oneday.second, 00, "The second should match")
+    }
 
 }

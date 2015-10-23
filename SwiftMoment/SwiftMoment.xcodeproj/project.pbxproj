@@ -16,6 +16,7 @@
 		3AB0FB891A6D160F006449DB /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0FB881A6D160F006449DB /* Moment.swift */; };
 		3AB0FB8B1A6D1629006449DB /* TimeUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0FB8A1A6D1629006449DB /* TimeUnit.swift */; };
 		3AB0FB8D1A6D1644006449DB /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB0FB8C1A6D1644006449DB /* Duration.swift */; };
+		9D2274DD1BDA25E0002EDA0B /* Moment+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2274DC1BDA25E0002EDA0B /* Moment+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		3AB0FB881A6D160F006449DB /* Moment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
 		3AB0FB8A1A6D1629006449DB /* TimeUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeUnit.swift; sourceTree = "<group>"; };
 		3AB0FB8C1A6D1644006449DB /* Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		9D2274DC1BDA25E0002EDA0B /* Moment+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Moment+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				3AB0FB711A6D15F8006449DB /* SwiftMoment.h */,
 				3AB0FB6F1A6D15F8006449DB /* Supporting Files */,
 				3AB0FB881A6D160F006449DB /* Moment.swift */,
+				9D2274DC1BDA25E0002EDA0B /* Moment+Extensions.swift */,
 				3AB0FB8A1A6D1629006449DB /* TimeUnit.swift */,
 				3AB0FB8C1A6D1644006449DB /* Duration.swift */,
 				3A6429C31A6D2C8700B10310 /* Operators.swift */,
@@ -236,6 +239,7 @@
 				3A6429C41A6D2C8700B10310 /* Operators.swift in Sources */,
 				3AB0FB8B1A6D1629006449DB /* TimeUnit.swift in Sources */,
 				3AB0FB891A6D160F006449DB /* Moment.swift in Sources */,
+				9D2274DD1BDA25E0002EDA0B /* Moment+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
